@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chmod +0000007 hello
+sudo chmod o=+rwx hello
