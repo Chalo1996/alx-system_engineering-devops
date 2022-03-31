@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chmod u-rwxg-rwxo+rwx hello
+sudo chmod o+777 hello
