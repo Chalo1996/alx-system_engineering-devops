@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo -R a+X * .
+sudo -R a+X .
