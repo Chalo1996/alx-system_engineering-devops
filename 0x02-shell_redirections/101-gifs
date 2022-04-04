@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name \*.gif
+exiftool -q -if '$framecount > 1' -p '$directory/$filename' -r -ext:gif .
