@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo find . f -empty -name "*.gif"
+identify -format '%n %i\n' -- *.gif
