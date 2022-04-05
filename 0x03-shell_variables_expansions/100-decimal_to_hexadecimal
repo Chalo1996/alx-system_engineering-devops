@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%d" $((16#$NUM))
+printf "%d" $((10#$NUM))
