@@ -1,2 +1,2 @@
 #!/bin/bash
-perl 'NR % 2 {print} !(NR % 2) {print length($0)}'
+ed -n 1~2p
