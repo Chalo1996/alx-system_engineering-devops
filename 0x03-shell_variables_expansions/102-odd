@@ -1,2 +1,2 @@
 #!/bin/bash
-gawk 'NR%2==0 {print}' | head
+awk 'NR % 2 {print} !(NR % 2) {print length($0)}'
