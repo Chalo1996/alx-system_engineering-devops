@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%o" $((($WATER | tr water 01234) + ($STIR | tr stir)))
+253016754 | tr 01234567 belhnort
