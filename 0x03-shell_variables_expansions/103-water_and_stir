@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%o" $( $WATER | tr water | $STIR | tr stir)
+printf "%o" $((($WATER | tr water 01234) + ($STIR | tr stir)))
