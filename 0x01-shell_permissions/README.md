@@ -1,4 +1,4 @@
-#Shell Permissions#</br>
+**Shell Permissions**</br>
 
 **Commands and Their Functions**</br>
 
