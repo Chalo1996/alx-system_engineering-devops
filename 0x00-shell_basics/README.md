@@ -1,28 +1,30 @@
-#Shell Navigation#
-**~~What each command does:~~**
-*First Command:  prints the absolute path name of the current working directory*
-*Second Command: Display the contents list of your current directory.*
-*Third Command: Change the working directory to the user’s home directory.*
-*Fourth Command: Display current directory contents in a long format*
-*Fifth Command: Display current directory contents, including hidden files (starting with .). Use the long format.*
-*Sixth Command: Display current directory contents in: Long format, with user and group IDs displayed numerically, And hidden files (starting with .)*
-*Seventh Command: Create a script that creates a directory named my_first_directory in the /tmp/ directory.*
-*Eighth Command: Move the file betty from /tmp/ to /tmp/my_first_directory.*
-*Ninth Command: Delete the file betty which is in /tmp/my_first_directory*
-*Tenth COmmand: Delete the directory my_first_directory that is in the /tmp directory.*
-*Eleventh Command: Write a script that changes the working directory to the previous one.*
-*Twelveth Command: Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.*
-*Thirteenth Command: Write a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.*
-*Fourteenth Command: Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.*
-*Fifteenth Command: Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
-You can consider that all HTML files have the extension .html*
+**Shell Navigation**</br>
 
-#ADVANCED#
+**~~What each command does:~~**</br>
+
+*First Command:  prints the absolute path name of the current working directory*</br>
+*Second Command: Display the contents list of your current directory.*</br>
+*Third Command: Change the working directory to the user’s home directory.*</br>
+*Fourth Command: Display current directory contents in a long format*</br>
+*Fifth Command: Display current directory contents, including hidden files (starting with .). Use the long format.*</br>
+*Sixth Command: Display current directory contents in: Long format, with user and group IDs displayed numerically, And hidden files (starting with .)*</br>
+*Seventh Command: Create a script that creates a directory named my_first_directory in the /tmp/ directory.*</br>
+*Eighth Command: Move the file betty from /tmp/ to /tmp/my_first_directory.*</br>
+*Ninth Command: Delete the file betty which is in /tmp/my_first_directory*</br>
+*Tenth COmmand: Delete the directory my_first_directory that is in the /tmp directory.*</br>
+*Eleventh Command: Write a script that changes the working directory to the previous one.*</br>
+*Twelveth Command: Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.*</br>
+*Thirteenth Command: Write a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.*</br>
+*Fourteenth Command: Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.*</br>
+*Fifteenth Command: Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+You can consider that all HTML files have the extension .html*</br>
+
+**ADVANCED**</br>
 *Sixteenth Command: Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
-You can assume that the directory /tmp/u will exist when we will run your script*
-*Seventeenth Command: Create a script that deletes all files in the current working directory that end with the character ~.*
+You can assume that the directory /tmp/u will exist when we will run your script*</br>
+*Seventeenth Command: Create a script that deletes all files in the current working directory that end with the character ~.*</br>
 *Eighteenth Command: Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
-You are only allowed to use two spaces (and lines) in your script, not more.*
+You are only allowed to use two spaces (and lines) in your script, not more.*</br>
 *Nineteenth Command: Write a command that lists all the files and directories of the current directory, separated by commas (,).
 
     Directory names should end with a slash (/)
@@ -30,5 +32,5 @@ You are only allowed to use two spaces (and lines) in your script, not more.*
     The listing should be alpha ordered, except for the directories . and .. which should be listed at the very beginning
     Only digits and letters are used to sort; Digits should come first
     You can assume that all the files we will test with will have at least one letter or one digit
-    The listing should end with a new line*
+    The listing should end with a new line*</br>
 *Twentieth Command: Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.*
