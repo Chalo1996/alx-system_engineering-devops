@@ -1,6 +1,6 @@
 **Shell Permissions**</br>
 
-**Commands and Their Functions**</br>
+**Command and what each command does**</br>
 
 1. sudo su betty- switches the current user to the user betty.</br>
 2. whoami- prints the effective username of the current user.</br>
