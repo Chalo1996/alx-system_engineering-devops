@@ -1,6 +1,6 @@
 **Shell Navigation**</br>
 
-**~~What each command does:~~**</br>
+**What each command does:**</br>
 
 *First Command:  prints the absolute path name of the current working directory*</br>
 *Second Command: Display the contents list of your current directory.*</br>
