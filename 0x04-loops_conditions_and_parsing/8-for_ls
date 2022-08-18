@@ -6,5 +6,5 @@
 file=$(ls)
 for lsdfile in $file
 do
-	echo "$lsdfile" | cut -b 3-
+	echo "$lsdfile" | cut -d "-" -f2
 done
