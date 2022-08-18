@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+: 'displays the time for 12 hours and 59 minutes:
+    display hours from 0 to 12
+    display minutes from 1 to 59
+'
+min=1
+hr=0
+counter=0
+while [ $min -ne 767 ]
+do
+	if [ $min -eq 1 ]
+	then
+		echo "Hour: $hr"
+		echo $min
+
+	elif [ $min -eq 60 ]
+	then
+		min=$(( 1 ))
+		hr=$(( hr+1 ))
+		echo "Hour: $hr"
+		echo $min
+
+	elif [ $counter -eq 766 ]
+	then
+		break
+
+	else
+		echo $min
+	fi
+
+	min=$(( min + 1 ))
+	counter=$(( counter+1 ))
+done
+echo "59"
