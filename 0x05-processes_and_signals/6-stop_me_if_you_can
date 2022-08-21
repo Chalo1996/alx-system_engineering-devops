@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Killall "4-to_infinity_and_beyond" processess
+get_pid=$(pgrep -f "./4-to_infinity_and_beyond")
+kill "$get_pid"
