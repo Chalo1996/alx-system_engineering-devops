@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Authorize keys
+
+cat ~/.ssh/school | ssh ubuntu@44.200.41.28 "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
