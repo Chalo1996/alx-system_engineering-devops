@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#Configures an Ubuntu machine to install Nginx
+
+apt install nginx -y
+ufw enable "Nginx HTTPS"
+service nginx start
