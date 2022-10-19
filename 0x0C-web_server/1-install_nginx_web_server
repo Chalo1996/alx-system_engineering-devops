@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #Configures an Ubuntu machine to install Nginx
 
+apt-get -y update
 apt install nginx -y
 ufw allow "Nginx HTTP"
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
 service nginx start
-curl 44.200.41.28/
-curl -sI 44.200.41.28/
