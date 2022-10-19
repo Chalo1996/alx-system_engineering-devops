@@ -2,5 +2,5 @@
 #Configures an Ubuntu machine to install Nginx
 
 apt install nginx -y
-ufw enable "Nginx HTTPS"
+ufw allow "Nginx HTTP"
 service nginx start
