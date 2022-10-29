@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Install and configure nginx on ubuntu:14.04 docker container to be exposed on port 80
 
-sudo apt-get -y update
-sudo apt-get -y install ufw curl
+apt-get -y update
+sudo apt-get -y install curl
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
-sudo service nginx start
+sudo service nginx restart
