@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Installs and configures Apache2 on the docker container ubuntu:14.04
+
+apt-get -y update && apt-get -y install apache2
+sudo apt-get remove --purge iptables
+sudo apt-get -y install iptables ufw apache2-mpm worker
+sudo service apache2 start
