@@ -3,5 +3,4 @@
 
 sudo apt-get -y update
 sudo apt-get -y install ufw curl
-sudo ufw allow 'Nginx HTTP'
 sudo service nginx start
