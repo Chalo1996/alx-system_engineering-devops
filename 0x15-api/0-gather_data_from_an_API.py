@@ -6,20 +6,23 @@ Returns info about employees TODO list progress
 
 
 import requests
-from sys import argv
+import sys
+
+
+firstArg = sys.argv[1]
 
 url = "https://jsonplaceholder.typicode.com"
 
 users = requests.get(
-    "{}/users/?id={}".format(url, argv[1])
+    "{}/users/?id={}".format(url, firstArg)
 )
 
 todo_total = requests.get(
-    "{}/todos?userId={}".format(url, argv[1])
+    "{}/todos?userId={}".format(url, firstArg)
 )
 
 todo_completed = requests.get(
-    "{}/todos?userId={}&&completed=true".format(url, argv[1])
+    "{}/todos?userId={}&&completed=true".format(url, firstArg)
 )
 
 
