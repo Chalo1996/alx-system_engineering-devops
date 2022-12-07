@@ -1,0 +1,37 @@
+Title: Postmortem for Server Breakdown on December 7, 2022
+
+Date: December 8, 2022
+
+Overview:
+
+On December 7, 2022, at 12:00 AM, the main server for the SokoApp website experienced a catastrophic failure, resulting in a complete loss of service for all users. The server failure was caused by a hardware malfunction, and despite the efforts of the operations team, the server could not be restored to operation.
+
+Timeline:
+
+12:00 AM: The main server for the SokoApp website experiences a hardware malfunction and goes offline.
+
+12:05 AM: The operations team is notified of the server failure and begins investigating the issue.
+
+12:30 AM: The operations team determines that the server cannot be restored to operation and that a complete failure has occurred.
+
+1:00 AM: The operations team begins the process of restoring service by bringing up a backup server and restoring the website from a recent backup.
+
+3:00 AM: The backup server is online and the website is accessible, but performance is degraded due to the increased load on the server.
+
+5:00 AM: The operations team finishes restoring the website from the backup and performance returns to normal.
+
+Lessons learned:
+
+    The operations team did not have a sufficiently robust disaster recovery plan in place to quickly restore service in the event of a complete server failure. This resulted in a prolonged period of downtime for the website.
+
+    The operations team did not have adequate monitoring and alerting systems in place to quickly identify and diagnose issues with the server. This made it more difficult to quickly determine the cause of the server failure and take appropriate action.
+
+    The operations team did not have adequate communication processes in place to notify users and other stakeholders of the server failure and the progress of the recovery effort. This caused confusion and frustration for users, who were unsure of what was happening and when the website would be restored.
+
+Recommendations:
+
+    The operations team should implement a more robust disaster recovery plan to quickly restore service in the event of a complete server failure. This plan should include procedures for bringing up backup servers, restoring the website from backups, and monitoring and alerting systems to quickly identify and diagnose issues.
+
+    The operations team should implement monitoring and alerting systems to quickly identify and diagnose issues with the server, and to automatically alert the appropriate team members when issues arise. This will enable the team to respond to and address issues more quickly and effectively.
+
+    The operations team should establish clear communication processes to notify users and other stakeholders of server failures and the progress of the recovery effort. This will help to keep users informed and reduce confusion and frustration.
