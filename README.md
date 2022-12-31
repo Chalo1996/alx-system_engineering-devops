@@ -1,6 +1,5 @@
 # DevOps
 ---
----
 
 ## Author
 ____
